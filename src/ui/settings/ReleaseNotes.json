@@ -10,6 +10,7 @@
     {
       "version": "3.6.0",
       "notes": [
+        "Note:  This version adds the 'unlimitedStorage' permission for future storage usage.",
         "Added:  Implementation of FireFox Containers/Contextual Identities.  This allows CAD to monitor when changes to containers info have been made, and remove the CAD list matching that removed container ID.",
         "Added:  Manually entering expressions and using Shift+Enter will add the expression into the GreyList.",
         "Added:  Search Expressions while typing.  It's not perfect but it is a start.  Closes #120.",

@@ -20,6 +20,19 @@ Control your cookies! This extension is inspired by [Self-Destructing Cookies](h
 - Easily see the number of cookies for a site
 - Support for Container Tabs (Firefox 53+ only)
 
+| Cleanable Data       | Support     | Reference     |Known Issues     |
+| :------------- | :----------: | :-----------: |:-----------: |
+|  Cookies | Yes   |     |
+| Local Storage   | Yes |  [See Supported Browser Versions](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete/wiki/Documentation#enable-localstorage-support)  | |
+| History   | Out Of Project Scope |    | |
+| Downloads   | Out Of Project Scope |    | |
+| Form Data  | Out Of Project Scope |    | |
+| Passwords   | Out Of Project Scope |    | |
+| Indexed DB   | yes |  [See Supported Browser Versions](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete/wiki/Documentation#enable-indexeddb-support)  | |
+| Plugin Data   | yes |  [See Supported Browser Versions](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete/wiki/Documentation#enable-plugin-data-support)  | |
+| Service Worker   | yes |  [See Supported Browser Versions](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete/wiki/Documentation#enable-service-workers-support)  | |
+| Cache   | yes |  [See Supported Browser Versions](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete/wiki/Documentation#enable-cache-support)  | |
+
 ### Usage
 
 1. Add the sites you want to keep cookies for to the whitelist (permanently) or greylist (until browser restart)

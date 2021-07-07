@@ -124,7 +124,7 @@ jobs:
           CC_TOKEN: ${{ secrets.CODECOV_TOKEN }} # Optional as it is open source repo
         run: bash ./.github/codecov_alt.sh $GITHUB_EVENT_PATH
       - name: Coveralls.io Coverage Upload
-        uses: coverallsapp/github-action@v1.1.2
+        uses: coverallsapp/github-action@1.1.3
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Extract zip builds for individual artifact upload

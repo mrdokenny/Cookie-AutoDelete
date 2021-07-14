@@ -95,7 +95,7 @@ jobs:
           echo "issue_close=true" >> $GITHUB_ENV
       - name: Add Incomplete Label
         if: env.issue_close == 'true'
-        uses: andymckay/labeler@1.0.2
+        uses: andymckay/labeler@1.0.3
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           add-labels: 'incomplete'
@@ -137,7 +137,7 @@ jobs:
           echo "issue_close=true" >> $GITHUB_ENV
       - name: Add Incomplete Label
         if: env.issue_close == 'true'
-        uses: andymckay/labeler@1.0.2
+        uses: andymckay/labeler@1.0.3
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           add-labels: 'incomplete'
@@ -175,7 +175,7 @@ jobs:
           echo "issue_close=true" >> $GITHUB_ENV
       - name: Add Incomplete Label
         if: env.issue_close == 'true'
-        uses: andymckay/labeler@1.0.2
+        uses: andymckay/labeler@1.0.3
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           add-labels: 'incomplete'
@@ -198,7 +198,7 @@ jobs:
     if: needs.pre_info.outputs.isDevAssoc != 'true' && needs.pre_info.outputs.isBug != 'true' && needs.pre_info.outputs.isFeature != 'true' && needs.pre_info.outputs.isSupport != 'true'
     steps:
       - name: Add Incomplete Label
-        uses: andymckay/labeler@1.0.2
+        uses: andymckay/labeler@1.0.3
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           add-labels: 'incomplete'
